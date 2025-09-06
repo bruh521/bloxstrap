@@ -6,7 +6,7 @@ namespace Bloxstrap.Integrations
 {
     public class DiscordRichPresence : IDisposable
     {
-        private readonly DiscordRpcClient _rpcClient = new("0");
+        private readonly DiscordRpcClient _rpcClient = new("1296310231248277504");
         private readonly ActivityWatcher _activityWatcher;
         private readonly Queue<Message> _messageQueue = new();
 
